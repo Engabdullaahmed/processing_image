@@ -125,4 +125,4 @@ This project is a graphical user interface (GUI) application for image processin
 6. tkinter Basics:
    - [tkinter](https://www.geeksforgeeks.org/python-gui-tkinter/)
    - [tkinter]((https://www.youtube.com/watch?v=NzEh3Dfa4Vg&list=PLSiLeKadTQ7nLJxpQo1-944miQKlheu-v))
-   - [tkinter]((https://www.youtube.com/watch?v=yQSEXcf6s2I&list=PLCC34OHNcOtoC6GglhF3ncJ5rLwQrLGnV)
+   - [tkinter]((https://www.youtube.com/watch?v=yQSEXcf6s2I&list=PLCC34OHNcOtoC6GglhF3ncJ5rLwQrLGnV))

@@ -1,6 +1,15 @@
 # # Image Processing GUI with Python
 ## Overview
 This project is a graphical user interface (GUI) application for image processing using Python. It provides functionalities to apply various image filters and transformations on single images or entire datasets. Users can load images, apply filters like negative, Sobel, Gaussian, and others, and save the processed images.
+## output
+-- procssing single image
+![image](https://github.com/user-attachments/assets/9dcf4348-2579-4822-ab68-599ec8daaebb)
+![image](https://github.com/user-attachments/assets/74da795d-8208-4d40-bd31-eeb60624a7a5)
+![image](https://github.com/user-attachments/assets/9aec68db-bdc1-4e67-bb68-b8ebca783e79)
+-- procssing dataset 
+![image](https://github.com/user-attachments/assets/8a178da7-fdd0-4801-85c7-29b202f560cd)
+![Uploading image.png…]()
+![Uploading image.png…]()
 
 ## Features
 - Load single images or a folder of images.
@@ -126,3 +135,5 @@ This project is a graphical user interface (GUI) application for image processin
    - [tkinter](https://www.geeksforgeeks.org/python-gui-tkinter/)
    - ((https://www.youtube.com/watch?v=NzEh3Dfa4Vg&list=PLSiLeKadTQ7nLJxpQo1-944miQKlheu-v))
    - ((https://www.youtube.com/watch?v=yQSEXcf6s2I&list=PLCC34OHNcOtoC6GglhF3ncJ5rLwQrLGnV))
+  
+

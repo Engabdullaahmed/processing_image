@@ -1,11 +1,4 @@
-# processing_image
-**Image Processing GUI Application**  A Python-based GUI for single and batch image processing using Tkinter, OpenCV, and PIL. Features include filters (negative, Sobel, Gaussian), transformations (log, power-law), histogram matching, and batch processing. Supports thumbnail previews, reset, and save options for enhanced usability.
-
-
-
-
-# Image Processing GUI with Python
-
+# # Image Processing GUI with Python
 ## Overview
 This project is a graphical user interface (GUI) application for image processing using Python. It provides functionalities to apply various image filters and transformations on single images or entire datasets. Users can load images, apply filters like negative, Sobel, Gaussian, and others, and save the processed images.
 

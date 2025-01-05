@@ -9,8 +9,7 @@ This project is a graphical user interface (GUI) application for image processin
 -- procssing dataset 
 ![image](https://github.com/user-attachments/assets/8a178da7-fdd0-4801-85c7-29b202f560cd)
 ![image](https://github.com/user-attachments/assets/cb2d7da0-1117-4314-a877-5973c7606d32)
-![Uploading image.png…]()
-![Uploading image.png…]()
+
 
 ## Features
 - Load single images or a folder of images.

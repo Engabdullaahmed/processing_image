@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.total {
+    width: 100%;
+    text-align: center;
+}
+
+.test {
+    width: 25%;
+    float: left;
+    position: relative;
+    border: 5px solid #09c;
+    /* padding: 5px; */
+    overflow: hidden;
+    /* display: block; */
+}
+
+.total img {
+    width: 100%;
+    height: auto;
+    transition: all 1s; 
+    display: block;
+    /* to fill the border of image   */
+}
+
+.clr {
+    clear: both;
+}
+
+.member-caption {
+    background-color: rgba(42, 63, 85, 0.7);
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    /* to h2 and p */
+    opacity: 0;
+    /* div درجه سطوع  */
+    transition: all 1s;
+    display:block;
+}
+
+.member-caption h2 {
+    background-color: #1d2c3c;
+    color: white;
+    padding: 10px;
+    text-transform: capitalize;
+    position: relative;
+    width: 100%;
+    left: 1000%;
+    transition: all 1s 1.1s;
+}
+
+.member-caption p {
+    color: white;
+    margin-top: 50px;
+    text-transform: capitalize;
+    position: relative;
+    width: 100%;
+    left: 1000%;
+    transition: all 1s 1.5s;
+}
+
+.member-caption:hover {
+    opacity: 1;
+    transform: rotate(360deg);
+}
+
+.member-caption:hover h2 {
+    left: 0;
+}
+
+.member-caption:hover img {
+    transform: scale();
+}
+
+.member-caption:hover p {
+    left: 0;
+}
+.test:hover img{
+transform: scale(1.3,1.3);
+}

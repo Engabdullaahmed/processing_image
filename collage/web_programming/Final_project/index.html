@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Work Section</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="section_work">
+        <div class="section-title">
+            <h2>OUR WORK</h2>
+            <div class="description">
+                <p>It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+            </div>
+        </div>
+        <div class="button_section">
+            <button class="filter-btn active" onclick="filterSelection('all')">All</button>
+            <button class="filter-btn" onclick="filterSelection('seo')">SEO</button>
+            <button class="filter-btn" onclick="filterSelection('webdesign')">Web Design</button>
+            <button class="filter-btn" onclick="filterSelection('work')">Work</button>
+            <button class="filter-btn" onclick="filterSelection('wordpress')">Wordpress</button>
+        </div>
+        <div class="items-container">
+            <div class="filter-item seo">
+                <div class="img-container">
+                    <img src="img/1.jpg" alt="SEO Item 1">
+                </div>
+            </div>
+            <div class="filter-item webdesign">
+                <div class="img-container">
+                    <img src="img/2.jpg" alt="Web Design Item 1">
+                    <div class="overlay">
+                        <div class="text">Web Design Project 1</div>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-item work">
+                <div class="img-container">
+                    <img src="img/3.jpg" alt="Work Item 1">
+                    <div class="overlay">
+                        <div class="text">Work Project 1</div>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-item work">
+                <div class="img-container">
+                    <img src="https://via.placeholder.com/300x200?text=Work+Image+2" alt="Work Item 2">
+                    <div class="overlay">
+                        <div class="text">Work Project 2</div>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-item wordpress">
+                <div class="img-container">
+                    <img src="https://via.placeholder.com/300x200?text=Wordpress+Image+1" alt="Wordpress Item 1">
+                    <div class="overlay">
+                        <div class="text">Wordpress Project 1</div>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-item seo">
+                <div class="img-container">
+                    <img src="https://via.placeholder.com/300x200?text=SEO+Image+2" alt="SEO Item 2">
+                    <div class="overlay">
+                        <div class="text">SEO Project 2</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function filterSelection(category) {
+            let items = document.getElementsByClassName("filter-item");
+            let buttons = document.getElementsByClassName("filter-btn");
+
+            for (let button of buttons) {
+                button.classList.remove("active");
+            }
+            event.target.classList.add("active");
+
+            for (let item of items) {
+                if (category === 'all') {
+                    item.style.display = "block";
+                } else if (item.classList.contains(category)) {
+                    item.style.display = "block";
+                } else {
+                    item.style.display = "none";
+                }
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.clr {
+    clear: both;
+}
+
+.home {
+    height: 100vh;
+    background-image: url("../images/shutterstock_277750193.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.home .home-nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+}
+
+.home .home-nav .nav-logo {
+    width: 10%;
+    float: left;
+}
+
+.home .home-nav .nav-logo img {
+    width: 60%;
+}
+
+.home .home-nav .nav-list {
+    width: 40%;
+    text-align: center;
+    float: right;
+    list-style: none;
+    margin-top: 7px;
+}
+
+.home .home-nav .nav-list li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.home .home-nav .nav-list li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+}
+
+.home .home-content {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 50px;
+}
+
+.home .home-content h1 {
+    margin: 10px 0 5px;
+    color: white;
+}
+
+.home .home-content img {
+    width: 50%;
+}
+
+.home .home-content p,
+.about .about-content span {
+    color: white;
+    margin-bottom: 20px;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.home .home-content .btns button {
+    padding: 15px 15px;
+    border: none;
+    text-transform: capitalize;
+}
+
+.home .home-content .btns .btn1 {
+    background-color: #989595;
+}
+
+.about {
+    padding: 40px;
+}
+
+.about .about-img {
+    width: 20%;
+    float: right;
+}
+
+.about .about-content {
+    width: 60%;
+    text-align: center;
+    float: right;
+    margin-top: 100px
+}
+
+.about .about-img img {
+    width: 100%;
+}
+
+.about .about-content h2 {
+    margin-bottom: 30px;
+}
+
+.about .about-content p {
+    padding: 0 20px;
+    /* text-transform: capitalize; */
+}
+
+.about .about-content button {
+    margin-top: 30px;
+    padding: 15px 10px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.about .about-content span {
+    color: rgb(224, 224, 40);
+    text-transform: capitalize;
+}
+
+/* .fixed-bg { */
+    /* height: 300px; */
+    /* background-color: tomato; */
+    /* background-image: url("../images/bg.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+} */
+
+.meals {
+    width: 95%;
+    margin: auto;
+    padding: 20px 0;
+    background: bisque;
+}
+
+.meals .meal {
+    width: 24%;
+    text-align: center;
+    float: left;
+    padding: 7px;
+}
+/* 
+.meals .meal img {
+    /* border-radius: 50%; */
+/* } */  
+
+.meals .meal h2 {
+    margin: 10px 0 0;
+}
+
+.meals .meal .forhr {
+    width: 40%;
+    height: 1px;
+    margin: 15px auto;/
+}
+
+.contact {
+    background-color: #eae9e7;
+    padding: 30px;
+}
+
+.contact .contact-header,
+.meals .meals-header {
+    text-align: center;
+    margin-bottom: 25px;
+
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.contact .conact-form {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.contact .conact-form form div {
+    margin-bottom: 20px;
+}
+
+.contact .conact-form form textarea,
+.contact .conact-form form input {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact .conact-form form textarea {
+    resize: none;
+}
+
+.sub-butt {
+    text-align: right;
+}
+
+.sub-butt button {
+    padding: 15px 25px;
+    border: none;
+    background-color: #a57771;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: rgb(82, 80, 80);
+    padding: 25px;
+    font-size: 30px;
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+
+/* p:nth-child(2){
+    background-color: antiquewhite;
+} */
+p:nth-of-type(1) {
+    background-color: antiquewhite;
+}
+
+h1 {
+    background-color: blue;
+}
+
+/*?
+which need to pirority 
+
+id class tagname 
+
+*/

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Labels</title>
+</head>
+
+<body style="background-image: url('11.jpg'); padding-left: 50px; padding-top: 50px;">
+    <div style="text-align: center; font-size: larger; margin-bottom: 50px;">
+        Abdulla Ahmed
+    </div>
+    <form action="submit_form.php" method="post">
+        <div>
+            <label style="font-size: 50px;" for="first-name">First Name:</label>
+            <input style="font-size: 50px; margin-left: 50px;" type="text" name="first-name" id="first-name"
+                placeholder="Ex: Abdulla">
+        </div>
+        <div style="margin-bottom: 80px;">
+            <label style="font-size: 50px;" for="last-name">Last Name:</label>
+            <input style="font-size: 50px; margin-left: 60px;" type="text" name="last-name" id="last-name"
+                placeholder="Ex: Ahmed">
+        </div>
+        <div>
+            <label style="font-size: 50px;" for="email">Email:</label>
+            <input style="font-size: 50px; margin-left: 150px;" type="text" name="email" id="email"
+                placeholder="Abdulla@Email.com">
+        </div>
+        <div style="margin-bottom: 80px;">
+            <label style="font-size: 50px;" for="phone">Phone:</label>
+            <input style="font-size: 50px; margin-left: 150px;" type="text" name="phone" id="phone"
+                placeholder="Ex: 123456789">
+        </div>
+        <div>
+            <label style="font-size: 50px;" for="password">Password:</label>
+            <input style="font-size: 50px; margin-left: 100px;" type="password" name="password" id="password"
+                placeholder="Your Password">
+        </div>
+        <div>
+            <label style="font-size: 50px;" for="repeat-password">Repeat Password:</label>
+            <input style="font-size: 50px; margin-left: 100px;" type="password" name="repeat-password" id="repeat-password"
+                placeholder="Repeat Password">
+        </div>
+
+        <div style="margin-bottom: 80px;">
+            <label style="font-size: 50px;" for="gender">Gender:</label>
+            <select style="font-size: 50px; width: 60%; padding: 10px; margin-top: 50px;" id="gender">
+                <option value="" disabled selected>Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+
+        <div style="margin-bottom: 80px; font-size: 50px;">
+            <input type="radio" name="Gender" value="male">Male 
+            <input type="radio" name="Gender" value="Female">Female 
+        </div>
+
+      
+
+        <button type="submit" style="font-size: 40px; padding: 10px; margin-top: 50px;">Submit Form</button>
+    </form>
+</body>
+
+</html>

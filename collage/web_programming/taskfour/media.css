@@ -1,0 +1,44 @@
+@media screen and(max-width:800) { 
+    /* zeor tooooo   800 */
+    .chile{
+        width: 100%;
+        float:none;
+    }
+}
+
+@media screen and(min-width:800) {
+    .chile{
+        
+    }
+    /* 800 to 10000000000000000000 px 
+    from being to infinty  */
+}
+
+
+@media screen and(min-width:800) and (max-width:1000){
+    /* 800 to 1000 */
+    .chile{
+        
+    }
+    /* 800 to 10000000000000000000 px 
+    from being to infinty  */
+
+    /* css breakpoints */
+
+}
+
+
+
+
+
+
+
+/* keyframe  */
+/* animatoin */
+
+
+
+/* overflow auto 
+clear 
+float 
+*/

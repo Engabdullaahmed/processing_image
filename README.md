@@ -122,12 +122,7 @@ This project is a graphical user interface (GUI) application for image processin
    - [Sobel Filter Explanation](https://en.wikipedia.org/wiki/Sobel_operator)
    - [Prewitt Filter Explanation](https://en.wikipedia.org/wiki/Prewitt_operator)
 5. Gaussian Filter Basics: [Gaussian Filtering](https://homepages.inf.ed.ac.uk/rbf/HIPR2/gsmooth.htm)
-
-## Future Improvements
-- Add advanced filters like bilateral filtering or CLAHE.
-- Support for video processing.
-- Allow custom filter kernel uploads.
-- Provide real-time image preview during filter application.
-
-## License
-This project is licensed under the [MIT License](LICENSE).
+6. tkinter Basics:
+   - [tkinter](https://www.geeksforgeeks.org/python-gui-tkinter/)
+   - [tkinter]((https://www.youtube.com/watch?v=NzEh3Dfa4Vg&list=PLSiLeKadTQ7nLJxpQo1-944miQKlheu-v))
+   - [tkinter]((https://www.youtube.com/watch?v=yQSEXcf6s2I&list=PLCC34OHNcOtoC6GglhF3ncJ5rLwQrLGnV)
